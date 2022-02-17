@@ -1,0 +1,34 @@
+body{
+    
+    background: linear-gradient(90deg, #FA58D0 25%, #00BFFF 75%);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: 0;
+}
+
+header{
+    display: flex;
+  justify-content: center;
+  
+}
+h1{
+    color: #F2F2F2;
+}
+h3{
+    font-family: cursive;
+}
+section p{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 12pt;
+text-justify: auto;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+h6{
+    font-size: 10px;
+}

@@ -1,0 +1,32 @@
+body{
+    width: auto;
+    height: auto;
+    max-width: auto;
+    max-height: auto;
+    background: -webkit-radial-gradient(-30% -900%, #f5f5dc 75%, black 50%); 
+
+}
+.Titulo{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin: 50px;
+   font-size: 500%;
+   color: darkred;
+}
+.Personajes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cursive;
+    color: crimson;
+}
+
+
+#IMG{
+    display: flex;
+    position:absolute;
+    top:  60px;
+  left: 600px;
+   
+}
+img{
+    width: 90%;
+    border-radius: 40%;
+}

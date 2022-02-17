@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*ETILO DE CUERPO DE PAGINA*/
+body{
+    background-color: #CBB9EB;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+/*estilo de header*/
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+header p::first-letter{
+    font-size: 3rem;
+    color: #ECFF03;
+}
+/*Estilo de nav*/
+nav{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+ul li{
+    background-color: aliceblue;
+    border: 2px solid;
+    padding: 10px 10px;
+    border-radius: 10%;
+    margin: 10px 10px;
+    font-size: 2rem;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+div{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+/*Estilo de aside de pagia*/
+aside{
+    align-content: center;
+    border: 2px solid;
+    width: auto;
+    height: 12%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    background-color: aliceblue;
+    border-radius: 20%;
+
+}
+aside p{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+/*Estilo de section de pagina*/
+.contendioPrincipal{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border-radius: 35%;
+    width: auto;
+    height: auto;
+    background-color: #332C3F;
+    padding: 10px 30px;
+    margin: 10px 10px;
+}
+.contendioPrincipal article{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue ;
+    font-size: 1.2rem;
+    border-radius: 20%;
+    padding: 20px 20px;
+    margin: 20px 30px;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+}
